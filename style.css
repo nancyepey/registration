@@ -118,3 +118,23 @@ input[type=submit] {
     color: red;
 }
 
+@media screen and (max-width:990px) {
+    main {
+        display: grid;
+        grid-template-areas: 'a'
+                             'b';
+        width: 50%;
+        height: fit-content;
+        margin-top: 2%;
+        margin-bottom: 6%;
+
+    }
+    .left, .right {
+        width: 70%;
+
+    }
+    .left {
+        margin-bottom: 10px;
+
+    }
+}
